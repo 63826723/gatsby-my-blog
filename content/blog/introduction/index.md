@@ -1,40 +1,46 @@
 ---
 title: Why Gatsby?
 date: "2020-09-16T18:50:00.000Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: 今回の勉強会では「Gatsby.js」というフレームワークについて扱いますが、そもそもGatsby.jsって何なのか？なぜ取り上げようと思ったのか？そのあたりをまとめてます。
 ---
 
-Why Gatsby?
+### Gatsby.jsとは何か
 
-
-
-個人的にブログを立ち上げたいと思っていた。
-
-https://futurismo.biz/
-
-ソースコードを見たらgatsbyの文字
-
-調べたら、そういうフレームワークがあるということで調べ始めた
-
-
-
-What is Gatsby?
-
-
-
-Reactで作られた静的サイトジェネレーター。
-
-静的サイトジェネレーターとは、何かしらの言語で書かれたソースから、静的なHTML/CSS & JavaScriptを生成するツールのこと。
-
-
-
-詳しくは以下のサイトを参照
+**Gatsby.js**(以降、Gatsby)は**React**で作られた**静的サイトジェネレーター**です。内部的にGraphQLを用いてデータを取得し、markdownからHTMLを生成、などの処理を簡単に行うことができます。
 
 https://qiita.com/hppRC/items/00739eaf9ae7fc95c1ca
 
 
 
+### なぜGatsby?
+
+1. 個人的にブログを作りたいと思っていた
+
+2. そんな時にたまたま見つけたブログのデザインがシンプルで気になった
+
+   ここ→ https://futurismo.biz/
+
+3. ソースコードを見てみたらGatsbyの文字が。この時はじめてGatsbyというフレームワークがあるということを知る
+
+4. どうせやるなら使ったことのないフレームワークを使ってみよう
+
+経緯はこんな感じです。
 
 
 
+### ブログ作成で検討した他の案は?
+
+ブログを作る上でなんとなく検討してみたのは以下の3つ。だけど最終的には気分で。
+
+#### WordPress
+
+前に使ったことがある。いろいろできるけど単純なブログにしては高機能すぎる。定期的に更新しないといけない。前に更新に失敗してデータが飛んだことがあって以来トラウマ(バックアップを取っていなかった自分のせいだけど)
+
+#### Django
+
+前に使ったことがある。いろいろできるけど作り込みが必要。CMS機能は便利だけどモデルを定義しないといけないのが面倒。Pythonはちょいちょい触っているので別のものがいいかな、と思った。
+
+#### Nuxt.js
+
+Vue.jsをベースにした、同じようなフレームワーク。興味はあるしReactに比べると学習コストが低そう、日本では人気がある。いずれ手を出してみたい。
 
