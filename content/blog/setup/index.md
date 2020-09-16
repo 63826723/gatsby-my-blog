@@ -21,6 +21,8 @@ Gatsby環境構築
 
 Node.js
 
+version: 14.11.0
+
 yarn
 
 Gatsbyプラグインをインストールするのにnpmも使用できるが今回はyarnを使う
@@ -32,6 +34,16 @@ gatsby-cli
 ```bash
 npm install --global gatsby-cli
 ```
+
+
+
+任意の場所にクローン
+
+git clone https://github.com/63826723/gatsby-my-blog.git
+
+プロジェクトフォルダ配下でコマンドを実行
+
+yarn install
 
 
 
