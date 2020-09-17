@@ -88,8 +88,3 @@ npm install --global gatsby-cli
 
 
 
-> 参考文献
->
-> JAMStackを学ぼう Gatsby, React bootstrap, Netlifyでつくる企業サイト
->
-

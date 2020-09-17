@@ -23,6 +23,8 @@ https://qiita.com/amakawa_/items/e7d0720e1ab8632769bf
 
 #### SSR(Server Side Rendering)
 
+※ここではJavaScriptでHTML生成するものを指すこととする。
+
 SPAはHTMLの生成をクライアントで行うが、SSRではサーバー側で生成するのでページ表示が早い。
 
 サイト例: https://studio.design/ja
